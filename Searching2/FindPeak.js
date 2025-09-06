@@ -10,7 +10,7 @@ var findPeakElement = function(nums) {
             lo=mid+1
         }else{
              // We are on the "decreasing slope"
-            // So the peak is at mid or to the left
+            // So the peak is at mid or to the left 
             hi=mid
         }
     }
